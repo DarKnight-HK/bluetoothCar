@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(115200);
 
   //Bluetooth Name
-  serialBT.begin("Aslam Hossain YT");
+  serialBT.begin("DLD GROUP A");
 
   //output pin declare
   pinMode(enA, OUTPUT);

@@ -34,9 +34,8 @@ void setup() {
 
   // Setup PWM channels
   ledcAttach(R, 5000, 8);  // Channel 0 for Motor A, 5 kHz frequency, 8-bit resolution
-  ledcAttach(enA, R);
   ledcAttach(L, 5000, 8);  // Channel 0 for Motor A, 5 kHz frequency, 8-bit resolution
-  ledcAttach(enB, L);
+
 
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
